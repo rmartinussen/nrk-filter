@@ -1,0 +1,8 @@
+nrk.no##nrk-bottom-menu,nrk-no-masthead
+nrk.no##.kur-room--tv
+nrk.no##.kur-room--radio
+nrk.no##.radio-multi-app
+nrk.no#?#[class^="kur-room"]:has(a[href*="nrk.no/fotball"], a[href*="nrk.no/sport"], a[href*="radio.nrk.no"], svg.nrk-logo-nrk-p3-symbol, a[href*="p3.no"], a[href*="maskorama"], .kur-blobtag__blob--recipe)
+nrk.no#?#[class^="kur-room"]:has-text(/Maskorama|Gikk du glipp av disse sakene/i)
+nrk.no##.kur-room--size-100:has(a[href*="radio.nrk.no"], a[href*="nrk.no/spesial/lyspunkt"]):upward([class^="kur-floor"])
+nrk.no#?#[class^="kur-floor"]:not(:has(a[href*="nrk.no"]))
